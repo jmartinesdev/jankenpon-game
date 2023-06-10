@@ -44,6 +44,11 @@ while True:
         print(f'Player choose {player_choice} and the machine choose {cpu_choice}. Result: You win!')
         player_victory += 1 
         
-    # structure else add to both players draw
+    # structure elif add to both players draw
     elif player_choice == cpu_choice:
         print(f'Player choose {player_choice} and the machine choose {cpu_choice}. Result: Players draw!')
+    
+    else: 
+    # strucute else add to the machine wins
+        print(f'Player choose {player_choice} and the machine choose {cpu_choice}. Result: You lost!')
+        cpu_victory += 1
