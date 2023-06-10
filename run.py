@@ -43,3 +43,7 @@ while True:
     if (player_choice == 'rock' and cpu_choice == 'scissor') or (player_choice == 'scissor' and cpu_choice == 'paper') or (player_choice == 'paper' and cpu_choice == 'rock'):
         print(f'Player choose {player_choice} and the machine choose {cpu_choice}. Result: You win!')
         player_victory += 1 
+        
+    # structure else add to both players draw
+    elif player_choice == cpu_choice:
+        print(f'Player choose {player_choice} and the machine choose {cpu_choice}. Result: Players draw!')
