@@ -16,7 +16,7 @@ def player_mov():
     elif player_choice in ['SCISSOR', 'Scissor', 'scissor']:
         player_choice = 'scissor'
     else:
-        print('Invalid! Please choose rock, paper or scissor. Tente novamente')
+        print('Invalid! Please choose rock, paper or scissor. Try again!')
         player_mov()
     return player_choice
 
