@@ -62,3 +62,15 @@ while True:
     print(f"Total machine victories: {cpu_victory}")
      
     print('-----------')  
+    
+    player_choice = input('Do you want play again? (y/n)')
+    """
+    Here we are going to check the while structure for 
+    the player to choose whether to continue playing or not.
+    """
+    if player_choice in ['yes', 'YES', 'Yes', 'y', 'Y']:
+        pass
+    elif player_choice in ['NO', 'no', 'No', 'n', 'N']:
+        break
+    else:
+        break
