@@ -26,3 +26,15 @@ def cpu_mov():
     """""
     cpu_choice = choice(['rock', 'paper', 'scissor'])
     return cpu_choice
+
+while True:
+    """
+    Added looping structure. 
+    The game will repeat as long as the player wants to play.
+    """
+    print('---------')
+    
+    cpu_choice = cpu_mov()
+    player_choice = player_mov()
+    
+    print('---------')
