@@ -52,3 +52,13 @@ while True:
     # strucute else add to the machine wins
         print(f'Player choose {player_choice} and the machine choose {cpu_choice}. Result: You lost!')
         cpu_victory += 1
+        
+    print('----------')
+    """
+    add a print to show the player 
+    on the screen the number of wins
+    """
+    print(f"Total players victories: {player_victory}")
+    print(f"Total machine victories: {cpu_victory}")
+     
+    print('-----------')  
