@@ -38,3 +38,8 @@ while True:
     player_choice = player_mov()
     
     print('---------')
+    
+    # structure if add to the player win
+    if (player_choice == 'rock' and cpu_choice == 'scissor') or (player_choice == 'scissor' and cpu_choice == 'paper') or (player_choice == 'paper' and cpu_choice == 'rock'):
+        print(f'Player choose {player_choice} and the machine choose {cpu_choice}. Result: You win!')
+        player_victory += 1 
