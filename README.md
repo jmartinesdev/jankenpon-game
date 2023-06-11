@@ -18,7 +18,7 @@ It requires no prerequisites, you only need to run the script. If you don't have
 
 Running the script is pretty easy, open a terminal in the folder where your script is located and run the following command :
 
-python3 run.py
+![file_python](https://github.com/jmartinesdev/jankenpon-game/blob/main/images/run-py.png)
 
 ## Commands to Play
 
