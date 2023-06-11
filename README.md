@@ -72,7 +72,10 @@ Steps to deployment were followed from Code Institute learning material.
 * Scroll to the bottom of the page and choose your preferred deployment type.
 * Finally, click "Manual Dedploy" or "Enable automatic update".
 
+### Final Project
+
+![deployment](https://github.com/jmartinesdev/jankenpon-game/blob/main/images/deployment.png)
+
 ## Credits 
 
-Credits
 This Jankenpon Game was created as an example by Jakeline Martines for my 3rd milestone project. The game concept is based on the classic paper, rock and scissor. The w3schools were used for clarifications and updates. The deployment steps provided in this README were adapted from the Code Institute learning material.
