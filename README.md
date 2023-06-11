@@ -1,4 +1,4 @@
-## Jankenpon Game - *Rock, Paper, Scissors Game
+## Jankenpon Game - *Rock, Paper, Scissors Game*
 
 This is a simple Rock, Paper, Scissors game implemented in Python. The player plays against the computer and the objective is to win as many rounds as possible.
 
