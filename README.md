@@ -51,5 +51,8 @@ python3 run.py
 * The game should track the scores of both the player and the computer.
 * The game should have a clear termination condition and offer the option to play again.
 
+## Testing 
+
+The Jankenpon Game has been tested extensively to ensure its functionality and accuracy. The code was passed through [PEP8](https://pep8ci.herokuapp.com/#) Python Validator and no issues were found. The line lengths have been adjusted to adhere to the recommended maximum of 79 characters per line.
 
 
