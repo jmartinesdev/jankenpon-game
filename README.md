@@ -20,3 +20,7 @@ Running the script is pretty easy, open a terminal in the folder where your scri
 
 python3 run.py
 
+# Sample use of the script
+
+![run.python Screenshot](https://github.com/jmartinesdev/jankenpon-game/blob/main/images/jankenpon-game.png)
+
