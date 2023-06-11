@@ -57,4 +57,22 @@ The Jankenpon Game has been tested extensively to ensure its functionality and a
 
 ![testing Screenshot](https://github.com/jmartinesdev/jankenpon-game/blob/main/images/No-errors.png)
 
+## Deployment
 
+Steps to deployment were followed from Code Institute learning material.
+
+
+* Sign in to your Heroku account.
+* Access the main page and click the "New" button in the top-right corner. Choose "Create New App" from the drop-down menu.
+* Choose a unique name for your app and select the region.
+* Once the app is created, go to the Deploy Tab and select the "Settings" Tab. Scroll down to "Config Vars".
+* Click "Reveal Config Vars" and enter "port" as the key, and "8000" as the value. Click "Add" to confirm the entry.
+* Go back to the Buildpack section and select "python", then click "Save Changes". Repeat this step to add "node.js", ensuring that the buildpacks are in the correct order.
+* Go to the "Deploy" tab and select "Github" as the deployment method. Confirm that you want to connect to GitHub and search for the repository name.
+* Scroll to the bottom of the page and choose your preferred deployment type.
+* Finally, click "Manual Dedploy" or "Enable automatic update".
+
+## Credits 
+
+Credits
+This Jankenpon Game was created as an example by Jakeline Martines for my 3rd milestone project. The game concept is based on the classic paper, rock and scissor. The w3schools were used for clarifications and updates. The deployment steps provided in this README were adapted from the Code Institute learning material.
