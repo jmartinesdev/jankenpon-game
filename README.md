@@ -14,3 +14,9 @@ The player can continue the game through the input by selecting the option **Y**
 
 It requires no prerequisites, you only need to run the script. If you don't have Python installed, you can visit [here](https://www.python.org/downloads/) to download Python
 
+## How to run the script
+
+Running the script is pretty easy, open a terminal in the folder where your script is located and run the following command :
+
+python3 run.py
+
