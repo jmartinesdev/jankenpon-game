@@ -11,7 +11,7 @@ def player_mov():
 
     player_choice = input("Choose one: Rock, Paper or Scissors: ")
     if player_choice in ['ROCK', 'Rock', 'rock']:
-        player_choice = 'pedra'
+        player_choice = 'paper'
     elif player_choice in ['PAPER', 'Paper', 'paper']:
         player_choice = 'paper'
     elif player_choice in ['SCISSOR', 'Scissor', 'scissor']:
