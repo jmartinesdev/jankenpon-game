@@ -20,7 +20,20 @@ Running the script is pretty easy, open a terminal in the folder where your scri
 
 python3 run.py
 
-# Sample use of the script
+## Commands to Play
+
+- shell
+- Copy code
+- python3 run.py
+- Follow the instructions displayed on the terminal to select your move (Rock, Paper, Scissors).
+
+- The computer will also make its move.
+
+- The result of each round will be displayed on the terminal.
+
+- The game will continue until you choose to end it.
+
+## Sample use of the script
 
 ![run.python Screenshot](https://github.com/jmartinesdev/jankenpon-game/blob/main/images/jankenpon-game.png)
 
