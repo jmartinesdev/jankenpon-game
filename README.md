@@ -37,3 +37,19 @@ python3 run.py
 
 ![run.python Screenshot](https://github.com/jmartinesdev/jankenpon-game/blob/main/images/jankenpon-game.png)
 
+## User Stories
+
+1. As a user, I want to view the current state of the board and my opponent's board.
+2. As a user, I want to make valid guesses and receive feedback on hits and misses.
+3. As a user, I want to track my score and my opponent's score during gameplay.
+4. As a user, I want to have the option to play again after the game ends.
+
+## Scope
+
+* The game should provide an interactive interface for players to enter their guesses.
+* The game should validate user input and provide appropriate feedback.
+* The game should track the scores of both the player and the computer.
+* The game should have a clear termination condition and offer the option to play again.
+
+
+
