@@ -9,7 +9,7 @@ def player_mov():
     Here the player's choices between rock, paper and scissors will be defined.
     """
     player_choice = input("Choose one: Rock, Paper or Scissors: ").lower()
-    if player_choice not in ['rock', 'paper', 'scissor']:
+    if player_choice not in ['rock', 'paper', 'scissors']:
         print('Invalid! Please choose rock, paper or scissors. Try again!!')
         return player_mov()
     return player_choice
@@ -65,5 +65,11 @@ while True:
     """
 
     replay_choice = input('Do you want to play again? (y/n): ').lower()
-    if replay_choice not in ['y', 'yes']:
-        break
+    
+    # Use the correct logical operators and comparisons.
+    while replay_choice not in ('y', 'yes', 'n', 'no'):
+        replay_choice = input('Invalid input. Do you want to play again? (y/n): ').lower()
+    
+    # Exit the program if the player doesn't want to play again.
+    if replay_choice in ('n', 'no'):
+        exit()
